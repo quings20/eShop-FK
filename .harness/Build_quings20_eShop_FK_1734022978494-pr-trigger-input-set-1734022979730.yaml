@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_quings20_eShop_FK_1734022978494-pr-trigger-input-set
+  identifier: Build_quings20_eShop_FK_1734022978494prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_quings20_eShop_FK_1734022978494
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
