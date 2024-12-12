@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_quings20_eShop_FK_1734024341876-push-trigger-input-set
+  identifier: Build_quings20_eShop_FK_1734024341876pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_quings20_eShop_FK_1734024341876
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
